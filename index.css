@@ -1,0 +1,165 @@
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    background-color: grey;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0;
+    border: 1.5px solid black;
+
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.navbar li a {
+    color: white;
+    font-weight: 100;
+}
+
+#menu-icon {
+    font-size: large;
+    display: none;
+}
+
+.link {
+    background-color: grey;
+    padding: 5px 20px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    top: -12px;
+    display: none;
+
+
+}
+
+@media(max-width:794px) {
+    .navbar {
+        display: none;
+
+    }
+
+    h1 {
+        margin-right: 0px;
+    }
+
+    #menu-icon {
+        font-size: large;
+        display: block;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .box h3 {
+        font-size: 0.5rem;
+    }
+
+
+
+}
+
+.navbar li a:hover {
+    color: maroon;
+}
+
+h1 {
+    color: brown;
+}
+
+
+.link a {
+    color: white;
+}
+
+.link.show {
+    display: block;
+}
+
+
+
+.link a:hover {
+    color: brown;
+
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    font-size: larger;
+    max-width: 700px;
+    /* Adjust the max-width based on your design */
+}
+
+
+.header {
+    color: black;
+}
+
+.sport1,
+.sport2,
+.sport3 {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.box h3 {
+    font-size: 1.0rem;
+}
+
+footer {
+    background-color: grey;
+    display: flex;
+    padding: 40px 10px;
+    border: 1.5px solid black;
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h4 {
+    color: white;
+}
+
+.col a {
+    color: brown;
+
+}
